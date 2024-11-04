@@ -1,0 +1,103 @@
+,,ID_CONVERSA,MENU PRINCIPAL ,ORÇAMENTO COM IA,PROBLEMAS MECÂNICOS,MENU DE PEÇAS,MENU DE MANUTENÇÃO PREVENTIVA,MENU DE CONTATOS,CURIOSIDADES SOBRE A EMPRESA,MENU SOBRE A IDEIA,VOLTAR AO MENU,RESPOSTAS DO FLUXO,
+,,1,1,-,-,-,-,-,1,-,1,1 - Apresentação Mont Clio | 1 - O que é a Mont Clio? | 1 - Usuário deseja voltar ao menu,ㅤ
+,,2,1,-,-,-,-,-,1,-,2,1 - Apresentação Mont Clio | 1 - O que é a Mont Clio? | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,3,1,-,-,-,-,-,2,-,1,1 - Apresentação Mont Clio | 2 - Valores da empresa | 1 - Usuário deseja voltar ao menu,ㅤ
+,,4,1,-,-,-,-,-,2,-,2,1 - Apresentação Mont Clio | 2 - Valores da empresa | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,5,1,-,-,-,-,-,3,-,1,1 - Apresentação Mont Clio | 3 - Histórico de serviços | 1 - Usuário deseja voltar ao menu,ㅤ
+,,6,1,-,-,-,-,-,3,-,2,1 - Apresentação Mont Clio | 3 - Histórico de serviços | 1 - Usuário não deseja voltar ao menu,ㅤ
+,,7,1,-,-,-,-,-,4,-,1,1 - Apresentação Mont Clio | 4 - Apresentação de metas | 1 - Usuário deseja voltar ao menu,ㅤ
+,,8,1,-,-,-,-,-,4,-,2,1 - Apresentação Mont Clio | 4 - Apresentação de metas | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,9,1,-,-,-,-,-,5,-,1,1 - Apresentação Mont Clio | 5 - Time de desenvolvedores | 1 - Usuário deseja voltar ao menu,ㅤ
+,,10,1,-,-,-,-,-,5,-,2,1 - Apresentação Mont Clio | 5 - Time de desenvolvedores | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,11,2,-,-,-,-,1,-,-,2,2 - Contato MontClio | 1 - Contato da Startup | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,12,2,-,-,-,-,1,-,-,1,2 - Contato MontClio | 1 - Contato da Startup | 1 - Usuário deseja voltar ao menu,ㅤ
+,,13,2,-,-,-,-,2,-,-,1,2 - Contato MontClio 2- Contato dos desenvolvedores | 1 - Usuário deseja voltar ao menu,ㅤ
+,,14,2,-,-,-,-,2,-,-,2,2 - Contato MontClio 2- Contato dos desenvolvedores | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,15,3,2,-,-,-,-,-,-,2,3 -  Fazer orçamento com IA | 2 - Usuário deseja informações sobre o orçamento de freios | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,16,3,1,-,-,-,-,-,-,2,3 - Fazer orçamento com IA | 1 - Embreagem | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,17,3,3,-,-,-,-,-,-,2,3 - Fazer orçamento com IA | 3 - Ar condicionado | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,18,3,4,-,-,-,-,-,-,1,3 - Fazer orçamento com IA | 4 - Motor | 1 - Usuário deseja voltar ao menu,ㅤ
+,,19,3,5,-,-,-,-,-,-,2,3 - Fazer orçamento com IA | 5 - Suspensão | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,20,3,7,-,-,-,-,-,-,1,3 - Fazer orçamento com IA | 7 - Direção Hidráulica | 1 - Usário deseja voltar ao menu,ㅤ
+,,21,3,5,-,-,-,-,-,-,1,3 - Fazer orçamento com IA | 5 - Suspensão | 1 - Usuário deseja voltar ao menu,ㅤ
+,,22,3,6,-,-,-,-,-,-,2,3 - Fazer orçamento com IA | 6 - Transmissão | 2- Usário não deseja voltar ao menu,ㅤ
+,,23,3,8,-,-,-,-,-,-,1,3 - Fazer orçamento com IA | 8 - Bateria | 1 - Usuário deseja voltar ao menu,ㅤ
+,,24,3,10,-,-,-,-,-,-,2,3 - Fazer orçamento com IA | 10 - Sistema de Escape | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,25,3,9,-,-,-,-,-,-,1,3 - Fazer orçamento com IA | 9 - Sistema de Injeção | 1 - Usuário deseja voltar ao menu,ㅤ
+,,26,3,9,-,-,-,-,-,-,2,3 - Fazer orçamento com IA | 9 - Sistema de Injeção | 2- Usuário não deseja voltar ao menu,ㅤ
+,,27,3,10,-,-,-,-,-,-,1,3 - Fazer orçamento com IA | 10 - Sistema de Escape | 1 - Usuário deseja voltar ao menu,ㅤ
+,,28,3,7,-,-,-,-,-,-,2,3 - Fazer orçamento com IA | 7 - Direção Hidráulica | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,29,3,8,-,-,-,-,-,-,2,3 - Fazer orçamento com IA | 8 - Bateria | 1 - Usuário não deseja voltar ao menu,ㅤ
+,,30,3,6,-,-,-,-,-,-,1,3 - Fazer orçamento com IA | 6 - Transmissão | 1 - Usuário deseja voltar ao menu,ㅤ
+,,31,3,3,-,-,-,-,-,-,1,3 - Fazer orçamento com IA | 3 - Ar-Condicionado | 1 - Usuário deseja voltar ao menu,ㅤ
+,,32,3,2,-,-,-,-,-,-,1,3 - Fazer orçamento com IA | 2 - Freio | 1 - Usuário deseja voltar ao menu,ㅤ
+,,33,3,1,-,-,-,-,-,-,1,3 - Fazer orçamento com IA | 1 - Embreagem | 1 - Usuário deseja voltar ao menu,ㅤ
+,,34,3,4,-,-,-,-,-,-,2,3 - Fazer orçamento com IA | 1 - Motor | 1 - Usuário não deseja voltar ao menu,ㅤ
+,,35,4,-,1,-,-,-,-,-,1,1 - Problemas mecânicos | 1 - Embreagem | 1 - Usuário deseja voltar ao menu,ㅤ
+,,36,4,-,1,-,-,-,-,-,2,4 - Problemas mecânicos | 1 - Embreagem | 1 - Usuário não deseja voltar ao menu,ㅤ
+,,37,4,-,2,-,-,-,-,-,1,4 - Problemas mecânicos | 2 - Freio | 1 - Usuário deseja voltar ao menu,ㅤ
+,,38,4,-,2,-,-,-,-,-,2,4 - Problemas mecânicos | 2 - Freio | 1 - Usuário não deseja voltar ao menu,ㅤ
+,,39,4,-,3,-,-,-,-,-,1,4 - Problemas mecânicos | 3 - Ar-Condicionado | 1 - Usuário deseja voltar ao menu,ㅤ
+,,40,4,-,3,-,-,-,-,-,2,4 - Problemas mecânicos | 3 - Ar-Condicionado | 1 - Usuário não deseja voltar ao menu,ㅤ
+,,41,4,-,5,-,-,-,-,-,1,4 - Problemas mecânicos | 5 - Suspensão | 1 - Usuário deseja voltar ao menu,ㅤ
+,,42,4,-,6,-,-,-,-,-,1,4 - Problemas mecânicos | 6 - Transmissão | 1 - Usuário deseja voltar ao menu,ㅤ
+,,43,4,-,6,-,-,-,-,-,2,4 - Problemas mecânicos | 6 - Transmissão | 1 - Usuário não deseja voltar ao menu,ㅤ
+,,44,4,-,7,-,-,-,-,-,1,4 - Problemas mecânicos | 7 - Direção Hidráulica | 1 - Usuário deseja voltar ao menu,ㅤ
+,,45,4,-,7,-,-,-,-,-,2,4 - Problemas mecânicos | 7 - Direção Hidráulica | 1 - Usuário não deseja voltar ao menu,ㅤ
+,,46,4,-,8,-,-,-,-,-,1,4 - Problemas mecânicos | 8 - Bateria | 1 - Usuário deseja voltar ao menu,ㅤ
+,,47,4,-,8,-,-,-,-,-,2,4 - Problemas mecânicos | 8 - Bateria | 1 - Usuário não deseja voltar ao menu,ㅤ
+,,48,4,-,9,-,-,-,-,-,1,4 - Problemas mecânicos | 9 - Sistema de injeção | 1 - Usuário deseja voltar ao menu,ㅤ
+,,49,4,-,9,-,-,-,-,-,2,4 - Problemas mecânicos | 9 - Sistema de injeção | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,50,4,-,10,-,-,-,-,-,1,4 - Problemas mecânicos | 10 - Sistema de escape | 1 - Usuário deseja voltar ao menu,ㅤ
+,,51,4,-,10,-,-,-,-,-,2,4 - Problemas mecânicos | 10 - Sistema de escape | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,52,4,-,4,-,-,-,-,-,1,4 - Problemas mecânicos | 4 - Motor | 1 - Usuário deseja voltar ao menu,ㅤ
+,,53,4,-,4,-,-,-,-,-,2,4 - Problemas mecânicos | 4 - Motor | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,54,4,-,5,-,-,-,,-,2,4 - Problemas mecânicos | 5 - Suspensão | 2 - Usuário não deseja voltar ao menu],ㅤ
+,,55,5,-,-,-,-,-,-,1,1,5 - Sobre Joy Shipyard | 1 -  O que é Joy Shipyard | 1 - Usuário deseja voltar ao menu,ㅤ
+,,56,5,-,-,-,-,-,-,1,2,5 - Sobre Joy Shipyard | 1 -  O que é Joy Shipyard | 1 - Usuário não deseja voltar ao menu,ㅤ
+,,57,5,-,-,-,-,-,-,2,1,5 - Sobre Joy Shipyard | 2 - Em que áreas atuamos | 1 - Usuário deseja voltar ao menu,ㅤ
+,,58,5,-,-,-,-,-,-,2,2,5 - Sobre Joy Shipyard | 2 - Em que áreas atuamos | 1 - Usuário não deseja voltar ao menu,ㅤ
+,,59,5,-,-,-,-,-,-,3,1,5 - Sobre Joy Shipyard | 3 - Quais foram as tecnologias utilizadas | 1 - Usuário deseja voltar ao menu,ㅤ
+,,60,5,-,-,-,-,-,-,3,2,5 - Sobre Joy Shipyard | 3 - Quais foram as tecnologias utilizadas | 1 - Usuário não deseja voltar ao menu,ㅤ
+,,61,5,-,-,-,-,-,-,4,1,5 - Sobre Joy Shipyard | 4 - Quando surgiu a ideia | 1 - Usuário deseja voltar ao menu,ㅤ
+,,62,5,-,-,-,-,-,-,4,2,5 - Sobre Joy Shipyard | 4 - Quando surgiu a ideia | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,63,5,-,-,-,-,-,-,5,1,5 - Sobre Joy Shipyard | 5 - Qual problema resolvemos | 1 - Usuário deseja voltar ao menu,ㅤ
+,,64,5,-,-,-,-,-,-,5,2,5 - Sobre Joy Shipyard | 5 - Qual problema resolvemos | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,65,5,-,-,-,-,-,-,6,1,5 - Sobre Joy Shipyard | 6 - Qual o nosso diferencial | 1 - Usuário deseja voltar ao menu,ㅤ
+,,66,5,-,-,-,-,-,-,6,2,5 - Sobre Joy Shipyard | 6 - Qual o nosso diferencial | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,67,5,-,-,-,-,-,-,7,1,5 - Sobre Joy Shipyard | 7 - Cronograma de desenvolvimento | 1 - Usuário deseja voltar ao menu,ㅤ
+,,68,5,-,-,-,-,-,-,7,2,5 - Sobre Joy Shipyard | 7 - Cronograma de desenvolvimento | 2- Usuário não deseja voltar ao menu,ㅤ
+,,69,6,-,-,11,-,-,-,-,1,6 - Comprar peças | 11 - Lanterna | 1 - Usuário deseja voltar ao menu,ㅤ
+,,70,6,-,-,11,-,-,-,-,2,6 - Comprar peças | 11 - Lanterna | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,71,6,-,-,1,-,-,-,-,1,6 - Comprar peças | 1 - Motor | 1 - Usuário deseja voltar ao menu,ㅤ
+,,72,6,-,-,1,-,-,-,-,2,6 - Comprar peças | 1- Motor | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,73,6,-,-,2,-,-,-,-,1,6 - Comprar peças | 1 - Freios | 1 - Usuário deseja voltar ao menu,ㅤ
+,,74,6,-,-,2,-,-,-,-,2,6 - Comprar peças | 2 - Freios | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,75,6,-,-,3,-,-,-,-,1,6 - Comprar peças | 3 - Embreagem | 1 - Usuário deseja voltar ao menu,ㅤ
+,,76,6,-,-,3,-,-,-,-,2,6 - Comprar peças | 3 - Embreagem | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,77,6,-,-,4,-,-,-,-,1,6 - Comprar peças | 4 - Velas de ignição | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,78,6,-,-,4,-,-,-,-,2,6 - Comprar peças | 4 - Velas de ignição | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,79,6,-,-,5,-,-,-,-,1,6 - Comprar peças | 5 - Bateria | 1 - Usuário deseja voltar ao menu,ㅤ
+,,80,6,-,-,5,-,-,-,-,2,6 - Comprar peças | 5 - Bateria | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,81,6,-,-,6,-,-,-,-,1,6 - Comprar peças | 6 - Amortecedores | 1 - Usuário deseja voltar ao menu,ㅤ
+,,82,6,-,-,6,-,-,-,-,2,6 - Comprar peças | 6 - Amortecedores | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,83,6,-,-,7,-,-,-,-,1,6 - Comprar peças | 7 - Radiador | 1 - Usuário deseja voltar ao menu,ㅤ
+,,84,6,-,-,7,-,-,-,-,2,6 - Comprar peças | 7 - Radiador | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,85,6,-,-,8,-,-,-,-,1,6 - Comprar peças | 8 - Alternador | 1 - Usuário deseja voltar ao menu,ㅤ
+,,86,6,-,-,8,-,-,-,-,2,6 - Comprar peças | 8 - Alternador | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,87,6,-,-,9,-,-,-,-,1,6 - Comprar peças | 9 - Bomba de combustível | 1 - Usuário deseja voltar ao menu,ㅤ
+,,88,6,-,-,9,-,-,-,-,2,6 - Comprar peças | 9 - Bomba de combustível | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,89,6,-,-,10,-,-,-,-,1,6 - Comprar peças | 10 - Filtro de óleo | 1 - Usuário deseja voltar ao menu,ㅤ
+,,90,6,-,-,10,-,-,-,-,2,6 - Comprar peças | 10 - Filtro de óleo | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,91,7,-,-,-,1,-,-,-,1,7 - Dicas de manutenção preventiva | 1 - Óleo | 1 - Usuário deseja voltar ao menu ,ㅤ
+,,92,7,-,-,-,1,-,-,-,2,7 - Dicas de manutenção preventiva | 1 - Óleo | 2 - Usuário não deseja voltar ao menu ,ㅤ
+,,93,7,-,-,-,2,-,-,-,1,7 - Dicas de manutenção preventiva | 2 - Motor | 1 - Usuário deseja voltar ao menu,ㅤ
+,,94,7,-,-,-,2,-,-,-,2,7 - Dicas de manutenção preventiva | 2 - Motor | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,95,7,-,-,-,3,-,-,-,1,7 - Dicas de manutenção preventiva | 3 - Freios | 1 - Usuário deseja voltar ao menu,ㅤ
+,,96,7,-,-,-,3,-,-,-,2,7 - Dicas de manutenção preventiva | 3 - Freios | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,97,7,-,-,-,4,-,-,-,1,7 - Dicas de manutenção preventiva | 4 - Embreagem | 1 - Usuário deseja voltar ao menu,ㅤ
+,,98,7,-,-,-,4,-,-,-,2,7 - Dicas de manutenção preventiva | 4 - Embreagem | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,99,7,-,-,-,5,-,-,-,1,7 - Dicas de manutenção preventiva | 5 - Velas | 1 - Usuário deseja voltar ao menu,ㅤ
+,,100,7,-,-,-,5,-,-,-,2,7 - Dicas de manutenção preventiva | 5 - Velas | 2 - Usuário não deseja voltar ao menu,ㅤ
+,,101,7,-,-,-,6,-,-,-,1,7 - Dicas de manutenção preventiva | 6 - Pneus | 1 - Usuário deseja voltar ao menu,ㅤ
+,,102,7,-,-,-,6,-,-,-,2,7 - Dicas de manutenção preventiva | 6 - Pneus | 2 - Usuário não deseja voltar ao menu,ㅤ"
