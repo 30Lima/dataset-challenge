@@ -1,74 +1,77 @@
-# 🔍 Agrupamento de Escolhas em Menus com K-Means
+# 🚢 Joy Shipyard – Dataset de Interações com Chatbot
 
-Este projeto tem como objetivo aplicar técnicas de **Machine Learning não supervisionado**, especificamente o algoritmo **K-means**, para identificar **padrões de escolha em menus interativos** utilizados por usuários.
+Projeto desenvolvido no contexto do programa **FIAP Corporate** em parceria com a **Porto Seguro**, com o objetivo de criar uma base estruturada de interações simuladas entre usuários e um **chatbot de suporte técnico**, voltado para diagnóstico de problemas mecânicos e compra de peças automotivas.
 
-## 📁 Sobre o Dataset
+---
 
-O dataset foi obtido a partir de interações com um sistema de menus, contendo colunas como:
+## 📌 Objetivo
 
-- `ID_CONVERSA`
-- `MENU PRINCIPAL`
-- `ORÇAMENTO COM IA`
-- `PROBLEMAS MECÂNICOS`
-- `MENU DE PEÇAS`
-- `CURIOSIDADES SOBRE A EMPRESA`, entre outros.
+Construir um **dataset limpo e organizado**, com registros completos dos fluxos de conversas dos usuários com o chatbot, a fim de:
 
-Cada coluna representa uma etapa ou submenu escolhido, com valores indicando se aquela opção foi acessada (número) ou ignorada (`-`, posteriormente convertido para `0`).
+- Identificar **padrões de comportamento**.
+- Reconhecer **demandas frequentes** por tipo de problema ou produto.
+- Suportar, futuramente, a aplicação de **modelos de agrupamento (ex: K-Means)** para obtenção de insights e segmentação de usuários.
 
-## 🧹 Etapas de Pré-processamento
+---
 
-1. **Importação do Dataset via URL pública (GitHub)**
-2. **Remoção de colunas desnecessárias**, como:
-   - `Unnamed: 0`, `Unnamed: 1`, `Unnamed: 13`
-   - `RESPOSTAS DO FLUXO` (rótulo textual)
-3. **Substituição de valores** `"-"` por `0` para facilitar análise numérica.
-4. **Salvamento em arquivo limpo:** `dataset_finalizado.csv`
+## 🧩 Estrutura dos Dados
 
-## 💡 Motivação
+- Cada linha representa uma conversa simulada com o chatbot.
+- Cada coluna representa uma etapa de menu:
+  - `MENU PRINCIPAL`
+  - Submenus como `MENU DE CURIOSIDADES`, `MENU DE ORÇAMENTO COM IA`, `MENU DE PEÇAS`, etc.
+- As opções escolhidas são numeradas e registradas.
+- Campos não preenchidos originalmente com `"-"` foram convertidos para `0` no pré-processamento.
 
-Optou-se pelo uso do **K-means** por ser uma técnica eficiente para:
-- Agrupar comportamentos similares de usuários.
-- Facilitar a identificação de fluxos comuns de navegação.
-- Destacar menus ou opções com maior volume de dúvidas ou acessos.
+### Exemplos de menus:
+- **Problemas Mecânicos**: motor, freio, suspensão, direção hidráulica, etc.
+- **Peças**: radiador, sensor, alternador, injeção eletrônica, etc.
+- **CuriOSIDADES**: sobre a empresa, tecnologias, equipe, etc.
 
-Essa abordagem permite extrair **insights práticos** para otimizar interfaces e melhorar a experiência do usuário.
+---
 
-## 🧠 Modelo de IA
+## 📋 Coleta e Pré-processamento
 
-O próximo passo do projeto consiste na:
-- **Treinamento de um modelo K-means**
-- Salvamento do modelo via `joblib`
-- Integração do modelo com aplicações analíticas
+1. Interações foram **simuladas manualmente**, totalizando **100 fluxos de conversa**.
+2. Cada conversa foi convertida em estrutura tabular com campos padronizados.
+3. A coluna de rótulos (`RESPOSTAS DO FLUXO`) foi removida após análise.
+4. Caracteres `"-"` foram substituídos por `0` para permitir análise quantitativa.
+5. O dataset final foi exportado como `dataset_finalizado.csv`.
 
-> O código de modelagem será desenvolvido no arquivo: **`ModeloIA.joblib`**
+---
 
-## 🧪 Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - Python
 - Pandas
 - Google Colab
-- Scikit-learn (K-means)
-- GitHub (versão e hospedagem dos dados)
-
-## 📝 Como Executar
-
-1. Suba o projeto no Google Colab
-2. Execute o notebook de pré-processamento
-3. Faça o download do arquivo `dataset_finalizado.csv`
-4. Use este arquivo para treinar o modelo K-means no script complementar
-
-## 📦 Resultado Esperado
-
-Um modelo capaz de classificar automaticamente as conversas em **clusters de comportamento**, auxiliando na:
-
-- Detecção de pontos críticos nos menus
-- Agrupamento de usuários com perfis semelhantes
-- Otimização de interfaces e fluxos interativos
+- GitHub (armazenamento do dataset)
 
 ---
 
-**Desenvolvido por:**  
-[Seu Nome ou Equipe]  
-📧 [email@email.com]  
-🔗 [github.com/seuusuario]
+## 📁 Arquivos do Projeto
 
+- `challenge.csv`: dataset original de conversas.
+- `dataset_finalizado.csv`: versão limpa e pronta para análise.
+- `ModeloIA.joblib`: reservado para etapas futuras de aplicação de IA.
+
+---
+
+## 🎯 Possíveis Extensões
+
+- Aplicação de **K-Means** para descobrir agrupamentos de usuários com padrões similares.
+- Visualização dos fluxos mais recorrentes em dashboards.
+- Aprimoramento do chatbot com base em análise dos clusters.
+
+---
+
+## 🧑‍💻 Equipe de Desenvolvimento
+
+Projeto desenvolvido por alunos FIAP:
+- Leonardo P. Santos – RM 557541
+- Pedro H. Lima Santos – RM 558243
+- Vitor Gomes Martins – RM 558244
+
+---
+
+**FIAP 2024 – Corporate | Mont Clio para Porto Seguro**
